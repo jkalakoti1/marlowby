@@ -1,0 +1,294 @@
+/**
+ * Marlowby Design System v2
+ * A distinctive palette for local discovery subscription boxes
+ * Avoids generic "warm cream + terracotta" defaults
+ */
+
+/* ==========================================================================
+   COLOR PALETTE - Distinctive, grounded in "local discovery" concept
+   ========================================================================== */
+
+:root {
+  /* ---- Core Brand Colors ---- */
+  /* Deep forest green - primary brand, feels organic & grounded */
+  --color-forest: #0F3D34;
+  --color-forest-light: #1A5C4E;
+  --color-forest-lighter: #2D7D6B;
+
+  /* Warm amber/gold - accent for "discovery" moments */
+  --color-amber: #D48B2E;
+  --color-amber-light: #E8A84D;
+  --color-amber-lighter: #F2C47A;
+
+  /* Terracotta - secondary accent, warmth without being generic */
+  --color-terracotta: #B85C3A;
+  --color-terracotta-light: #D17A5A;
+
+  /* ---- Neutral System ---- */
+  /* Not pure white/cream - slightly warmed for organic feel */
+  --color-cream: #FAF7F2;
+  --color-cream-warm: #F5F0E8;
+  --color-cream-deep: #EDE5D9;
+
+  /* Charcoal instead of black - softer, more approachable */
+  --color-charcoal: #1C1C1A;
+  --color-charcoal-light: #3D3D3A;
+  --color-charcoal-medium: #6B6B68;
+  --color-charcoal-muted: #9A9A97;
+
+  /* ---- Semantic Colors ---- */
+  --color-success: #1A7F64;
+  --color-success-light: #2D9F7E;
+  --color-warning: #D48B2E;
+  --color-error: #B84A3A;
+  --color-error-light: #D16A5A;
+  --color-info: #3A7BC8;
+
+  /* ---- Surface & Background ---- */
+  --color-surface: #FFFFFF;
+  --color-surface-elevated: #FAF7F2;
+  --color-surface-subtle: #F5F0E8;
+  --color-border: #E5DDD1;
+  --color-border-strong: #D4C8B8;
+
+  /* ---- Status Colors ---- */
+  --color-current: #1A7F64;
+  --color-upcoming: #D48B2E;
+  --color-preview: #52615A;
+  --color-archived: #7B8277;
+}
+
+/* Dark mode - sophisticated, not just inverted */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-forest: #3DD6B8;
+    --color-forest-light: #5EE8CC;
+    --color-forest-lighter: #8FF0DD;
+
+    --color-amber: #E8A84D;
+    --color-amber-light: #F2C47A;
+    --color-amber-lighter: #F7DBA8;
+
+    --color-terracotta: #E88D6B;
+    --color-terracotta-light: #F0A88A;
+
+    --color-cream: #1C1C1A;
+    --color-cream-warm: #2D2D2A;
+    --color-cream-deep: #3D3D3A;
+
+    --color-charcoal: #FAF7F2;
+    --color-charcoal-light: #E5DDD1;
+    --color-charcoal-medium: #B8ADA0;
+    --color-charcoal-muted: #8A8278;
+
+    --color-surface: #242422;
+    --color-surface-elevated: #2D2D2A;
+    --color-surface-subtle: #3D3D3A;
+    --color-border: #3D3D3A;
+    --color-border-strong: #4D4D4A;
+
+    --color-success: #3DD6B8;
+    --color-warning: #E8A84D;
+    --color-error: #E88D6B;
+    --color-info: #6BA8E8;
+  }
+}
+
+/* ==========================================================================
+   TYPOGRAPHY SYSTEM
+   ========================================================================== */
+
+:root {
+  /* Font families - distinctive pairing */
+  /* Display: Serif with character - for headlines that feel editorial */
+  --font-display: 'Fraunces', 'Georgia', serif;
+  /* UI: Humanist sans - readable, warm, not geometric */
+  --font-ui: 'DM Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* Mono: For codes, prices, technical details */
+  --font-mono: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
+
+  /* Type scale - modular scale ratio 1.25 (Major Third) */
+  --text-xs: 0.75rem;    /* 12px */
+  --text-sm: 0.875rem;   /* 14px */
+  --text-base: 1rem;     /* 16px */
+  --text-lg: 1.125rem;   /* 18px */
+  --text-xl: 1.25rem;    /* 20px */
+  --text-2xl: 1.563rem;  /* 25px */
+  --text-3xl: 1.953rem;  /* 31px */
+  --text-4xl: 2.441rem;  /* 39px */
+  --text-5xl: 3.052rem;  /* 49px */
+  --text-6xl: 3.815rem;  /* 61px */
+
+  /* Line heights */
+  --leading-tight: 1.1;
+  --leading-snug: 1.35;
+  --leading-normal: 1.55;
+  --leading-relaxed: 1.7;
+
+  /* Letter spacing */
+  --tracking-tight: -0.03em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.02em;
+  --tracking-wider: 0.1em;
+  --tracking-widest: 0.2em;
+}
+
+/* ==========================================================================
+   SPACING SYSTEM
+   ========================================================================== */
+
+:root {
+  --space-0: 0;
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.25rem;   /* 20px */
+  --space-6: 1.5rem;    /* 24px */
+  --space-8: 2rem;      /* 32px */
+  --space-10: 2.5rem;   /* 40px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+  --space-20: 5rem;     /* 80px */
+  --space-24: 6rem;     /* 96px */
+  --space-32: 8rem;     /* 128px */
+}
+
+/* ==========================================================================
+   BORDER RADIUS
+   ========================================================================== */
+
+:root {
+  --radius-none: 0;
+  --radius-sm: 0.25rem;   /* 4px */
+  --radius-md: 0.5rem;    /* 8px */
+  --radius-lg: 0.75rem;   /* 12px */
+  --radius-xl: 1rem;      /* 16px */
+  --radius-2xl: 1.5rem;   /* 24px */
+  --radius-full: 9999px;
+}
+
+/* ==========================================================================
+   SHADOWS & ELEVATION
+   ========================================================================== */
+
+:root {
+  --shadow-xs: 0 1px 2px rgba(28, 28, 26, 0.04);
+  --shadow-sm: 0 2px 4px rgba(28, 28, 26, 0.06);
+  --shadow-md: 0 4px 12px rgba(28, 28, 26, 0.08);
+  --shadow-lg: 0 8px 24px rgba(28, 28, 26, 0.1);
+  --shadow-xl: 0 16px 48px rgba(28, 28, 26, 0.12);
+  --shadow-inner: inset 0 2px 4px rgba(28, 28, 26, 0.06);
+
+  /* Colored shadows for brand moments */
+  --shadow-amber: 0 4px 20px rgba(212, 139, 46, 0.25);
+  --shadow-forest: 0 4px 20px rgba(26, 127, 100, 0.25);
+  --shadow-terracotta: 0 4px 20px rgba(184, 92, 58, 0.25);
+}
+
+/* ==========================================================================
+   TRANSITIONS & ANIMATION
+   ========================================================================== */
+
+:root {
+  --duration-fast: 120ms;
+  --duration-normal: 200ms;
+  --duration-slow: 300ms;
+  --duration-slower: 500ms;
+
+  --ease-out: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* ==========================================================================
+   Z-INDEX LAYERS
+   ========================================================================== */
+
+:root {
+  --z-base: 0;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-modal-backdrop: 300;
+  --z-modal: 400;
+  --z-popover: 500;
+  --z-toast: 600;
+  --z-tooltip: 700;
+}
+
+/* ==========================================================================
+   CONTAINER WIDTHS
+   ========================================================================== */
+
+:root {
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+  --container-2xl: 1440px;
+  --container-full: 100%;
+}
+
+/* ==========================================================================
+   UTILITY CLASSES
+   ========================================================================== */
+
+/* Typography utilities */
+.text-display { font-family: var(--font-display); font-weight: 400; letter-spacing: var(--tracking-tight); line-height: var(--leading-tight); }
+.text-ui { font-family: var(--font-ui); font-weight: 400; line-height: var(--leading-normal); }
+.text-mono { font-family: var(--font-mono); }
+
+/* Color utilities */
+.text-forest { color: var(--color-forest); }
+.text-amber { color: var(--color-amber); }
+.text-terracotta { color: var(--color-terracotta); }
+.text-charcoal { color: var(--color-charcoal); }
+.text-charcoal-light { color: var(--color-charcoal-light); }
+.text-charcoal-muted { color: var(--color-charcoal-muted); }
+.text-cream { color: var(--color-cream); }
+.text-success { color: var(--color-success); }
+.text-warning { color: var(--color-warning); }
+.text-error { color: var(--color-error); }
+
+.bg-cream { background-color: var(--color-cream); }
+.bg-cream-warm { background-color: var(--color-cream-warm); }
+.bg-forest { background-color: var(--color-forest); }
+.bg-amber { background-color: var(--color-amber); }
+.bg-terracotta { background-color: var(--color-terracotta); }
+.bg-charcoal { background-color: var(--color-charcoal); }
+.bg-surface { background-color: var(--color-surface); }
+.bg-surface-elevated { background-color: var(--color-surface-elevated); }
+
+/* Spacing utilities */
+.p-section { padding: var(--space-16) var(--space-6); }
+@media (min-width: 768px) { .p-section { padding: var(--space-20) var(--space-10); } }
+@media (min-width: 1024px) { .p-section { padding: var(--space-24) var(--space-12); } }
+
+.container { width: 100%; max-width: var(--container-xl); margin: 0 auto; padding: 0 var(--space-4); }
+@media (min-width: 768px) { .container { padding: 0 var(--space-6); } }
+@media (min-width: 1024px) { .container { padding: 0 var(--space-8); } }
+
+.container-narrow { max-width: var(--container-lg); }
+.container-wide { max-width: var(--container-2xl); }
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid var(--color-forest);
+  outline-offset: 3px;
+}
+
+/* Selection */
+::selection {
+  background-color: var(--color-amber);
+  color: var(--color-charcoal);
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

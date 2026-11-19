@@ -1,0 +1,135 @@
+[
+  {
+    "id": "box-contents-0",
+    "category": "box-contents",
+    "label": "Box contents",
+    "question": "What comes in a Marlowby box?",
+    "answer": "The concept brings together a small selection of city-inspired goods, a postcard, and stories about local creativity. The Austin example shows coffee, honey, a regional snack, and ceramics. Products and makers shown here are illustrative."
+  },
+  {
+    "id": "box-contents-1",
+    "category": "box-contents",
+    "label": "Box contents",
+    "question": "Are the products available individually?",
+    "answer": "No. This demonstration does not sell individual products or process orders. The product pages and stories help show what a curated box could feel like."
+  },
+  {
+    "id": "box-contents-2",
+    "category": "box-contents",
+    "label": "Box contents",
+    "question": "Are the makers real Marlowby partners?",
+    "answer": "The named sample makers in this demonstration are fictional examples. Photography and visual references do not establish a partnership with any business."
+  },
+  {
+    "id": "box-contents-3",
+    "category": "box-contents",
+    "label": "Box contents",
+    "question": "Can you accommodate allergies or dietary preferences?",
+    "answer": "Allergy handling, ingredient verification, substitutions, and dietary options have not been established for a real service. Do not rely on the sample products for food or allergy information."
+  },
+  {
+    "id": "plans-and-billing-0",
+    "category": "plans-and-billing",
+    "label": "Plans and billing",
+    "question": "How do the plans work?",
+    "answer": "The monthly example is $49 for one box, plus $7 shipping. The Three-Month Journey example is $135 prepaid for three boxes, plus $21 total shipping. Totals are before tax, which is not calculated in this demo. No payment is taken."
+  },
+  {
+    "id": "plans-and-billing-1",
+    "category": "plans-and-billing",
+    "label": "Plans and billing",
+    "question": "Does the three-month plan renew automatically?",
+    "answer": "A renewal policy for a real service has not been finalized. Trying this demo does not create a subscription or authorize recurring charges."
+  },
+  {
+    "id": "plans-and-billing-2",
+    "category": "plans-and-billing",
+    "label": "Plans and billing",
+    "question": "How do I cancel?",
+    "answer": "There is no active subscription to cancel in this demonstration. A cancellation policy and process would need to be established before a real launch. You can leave or restart the demo at any time."
+  },
+  {
+    "id": "plans-and-billing-3",
+    "category": "plans-and-billing",
+    "label": "Plans and billing",
+    "question": "Can I give a box as a gift?",
+    "answer": "Gifting is a possible future feature. Gift scheduling, recipient delivery, gift messages, and gift purchases are not available in this demonstration."
+  },
+  {
+    "id": "shipping-0",
+    "category": "shipping",
+    "label": "Shipping",
+    "question": "Where would Marlowby ship?",
+    "answer": "The current concept is U.S.-focused, but no live shipping service or delivery coverage has been established. A five-digit U.S. ZIP is used only as a practice checkout field."
+  },
+  {
+    "id": "shipping-1",
+    "category": "shipping",
+    "label": "Shipping",
+    "question": "How much is shipping?",
+    "answer": "The example shipping estimate is $7 per box: $7 for the monthly example or $21 for the three-box example. These are illustrative amounts, not a live shipping quote."
+  },
+  {
+    "id": "shipping-2",
+    "category": "shipping",
+    "label": "Shipping",
+    "question": "When will my box arrive?",
+    "answer": "No box is dispatched through this demonstration. A real shipping schedule, cutoff dates, and delivery estimates would need to be confirmed before launch."
+  },
+  {
+    "id": "shipping-3",
+    "category": "shipping",
+    "label": "Shipping",
+    "question": "What about damaged items or returns?",
+    "answer": "Returns, replacements, and support policies for a real service have not been established. No physical orders are created through this website."
+  },
+  {
+    "id": "cities-0",
+    "category": "cities",
+    "label": "Cities",
+    "question": "Can I choose my city?",
+    "answer": "The concept features a curated city rather than a city selected at checkout. Austin is the current example. Browsing a destination does not reserve or purchase a city box."
+  },
+  {
+    "id": "cities-1",
+    "category": "cities",
+    "label": "Cities",
+    "question": "What does Preview mean?",
+    "answer": "A preview is an editorial exploration of a possible destination. New Orleans and Portland do not have announced box release dates and cannot be ordered through this demo."
+  },
+  {
+    "id": "cities-2",
+    "category": "cities",
+    "label": "Cities",
+    "question": "Will more cities be added?",
+    "answer": "The concept could grow to include more destinations. This demonstration includes Austin, New Orleans, and Portland; no future release schedule is promised."
+  },
+  {
+    "id": "about-the-demo-0",
+    "category": "about-the-demo",
+    "label": "About the demo",
+    "question": "Can I place a real order?",
+    "answer": "No. Marlowby is a demonstration experience. Checkout does not process payments, place orders, or create subscriptions."
+  },
+  {
+    "id": "about-the-demo-1",
+    "category": "about-the-demo",
+    "label": "About the demo",
+    "question": "What happens to the details I enter?",
+    "answer": "Practice checkout entries stay in application memory while the page is open. They are not sent to an application server, included in a URL, or saved by the application to browser storage. They are cleared when you complete or cancel the demo; refreshing may reset progress."
+  },
+  {
+    "id": "about-the-demo-2",
+    "category": "about-the-demo",
+    "label": "About the demo",
+    "question": "Will I receive an email?",
+    "answer": "No confirmation, marketing, or shipping email is sent by this demonstration."
+  },
+  {
+    "id": "about-the-demo-3",
+    "category": "about-the-demo",
+    "label": "About the demo",
+    "question": "How can I get help?",
+    "answer": "Browse the FAQ and the Contact page for guidance about the concept. A verified customer support channel has not been provided for this demonstration."
+  }
+]

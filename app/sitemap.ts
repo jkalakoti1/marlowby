@@ -1,6 +1,7 @@
+export const dynamic = 'force-static';
+
 export default function sitemap() {
-  const domain = process.env.VERCEL_PROJECT_PRODUCTION_URL;
-  if (!domain) return [];
+  const domain = "jkalakoti1.github.io/marlowby";
   return [
     "",
     "/how-it-works",
